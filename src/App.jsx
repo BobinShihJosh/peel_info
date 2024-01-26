@@ -10,7 +10,7 @@ import PeelerInfo from './pages/PeelerInfo.jsx';
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename={"/peel_info/"}>
         <Routes>
           <Route index element = { <Home />}></Route>
           <Route path='/Home' element = { <Home />}></Route>
