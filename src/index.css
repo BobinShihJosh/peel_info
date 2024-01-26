@@ -312,7 +312,7 @@ sage
 }
 .gold__gradient {
   background: linear-gradient(90deg, #e8d5ab 0%, #e2a310 100%);
-  filter: blur(900px);
+  filter: blur(200px);
 }
 
 .white__gradient {
