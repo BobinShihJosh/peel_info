@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+
+  --sage-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,  /* Lighter sage shade */
+    #ffffff -78.47%,   /* Mid-tone sage shade */
+    #54A75E 91.61%     /* Darker sage shade */
+);
+
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.bg-primaryB {
+  /* background: black;  */
+  /* background: #E7E8D1; */
+  background: rgb(241, 239, 230);
+  /* background: linear-gradient(
+    157.81deg,
+    #CBD18F 90.29%,  
+    #C1D35B 51.94%,
+    #A8BA50 29.82%,
+    #8FA346 12.19%,
+    #768C3C -21.24%,
+    #5E7430 -43.27%
+  ); */
+}
+
+.dark-text {
+  color: black;
+}
+
+.gray-text {
+  color: rgb(49, 49, 49);
+}
+
+.light-text {
+  color: rgb(241, 239, 230);
+}
+
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #b5dfc2 -43.27%,   /* Lighter green shade */
+    #8aba99 -21.24%,   /* Lighter green shade */
+    #7aaf8a 12.19%,    /* Lighter green shade */
+    #75ae86 29.82%,    /* Lighter green shade */
+    #589a6c 51.94%,    /* Lighter green shade */
+    #4c9863 90.29%  
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+/* Green *./
+/* 
+#5EAC60 0.89%,
+#4C9449 17.23%,
+#427F3F 42.04%,
+#3A6B35 55.12%,
+#336636 71.54%,
+#2D5C2D 100% 
+*/
+/* Blue 
+#def9fa 0.89%,
+#bef3f5 17.23%,
+#9dedf0 42.04%,
+#7de7eb 55.12%,
+#5ce1e6 71.54%,
+#33bbcf 100%
+
+sage
+#CBD18F 90.29%,  
+#C1D35B 51.94%,
+#A8BA50 29.82%,
+#8FA346 12.19%,
+#768C3C -21.24%,
+#5E7430 -43.27%  
+*/ 
+.text-gradient_gold {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #f2e9d5 -43.27%,   /* Lighter green shade */
+    #ead5a4 -21.24%,   /* Lighter green shade */
+    #e0c27c 12.19%,    /* Lighter green shade */
+    #dcb04b 29.82%,    /* Lighter green shade */
+    #e2ab2b 51.94%,    /* Lighter green shade */
+    #e2a310 90.29%  
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.bg-gold-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #f2e9d5 -43.27%,   /* Lighter green shade */
+    #ead5a4 -21.24%,   /* Lighter green shade */
+    #e0c27c 12.19%,    /* Lighter green shade */
+    #dcb04b 29.82%,    /* Lighter green shade */
+    #e2ab2b 51.94%,    /* Lighter green shade */
+    #e2a310 90.29%  
+  );
+}
+.bg-blue-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+}
+
+.bg-green-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #8FD89E -43.27%,   /* Lighter green shade */
+    #76C77D -21.24%,   /* Lighter green shade */
+    #66B871 12.19%,    /* Lighter green shade */
+    #54A75E 29.82%,    /* Lighter green shade */
+    #3F9054 51.94%,    /* Lighter green shade */
+    #559C68 90.29%  
+  );
+}
+
+.bg-lighter-green-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #a7e8ba -43.27%,   /* Even lighter green shade */
+    #a7e8ba -21.24%,   /* Even lighter green shade */
+    #a7e8ba 12.19%,    /* Even lighter green shade */
+    #a7e8ba 29.82%,    /* Even lighter green shade */
+    #a7e8ba 51.94%,    /* Even lighter green shade */
+    #a7e8cd 90.29%  
+  );
+}
+
+.green-bk {
+  background: rgb(185, 222, 190); /* rgb(140, 182, 165) */
+}
+
+.green-cl {
+  background: #4c9863; /* 4c9878 */
+}
+
+.green-fill {
+  fill: #4c9863; /* 4c9878 */
+}
+
+.bg-black-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.bg-black-gradient-2 {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.bg-sage-gradient {
+  background: linear-gradient(
+    -168.39deg,
+    #F1F4E1 -278.56%,   /* Lighter sage shade */
+    #e1dcb1 -78.47%,    /* Mid-tone sage shade */
+    rgb(238, 232, 203)91.61%      /* Darker sage shade */
+  );
+}
+
+
+.bg-gray-gradient {
+  background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 95.11%
+  );
+}
+
+.bg-sage { 
+  background: rgb(241, 239, 230)
+}
+ 
+.bg-gold { 
+  background: #e2a310
+}
+.bg-goldlight { 
+  background: #e3ddce
+}
+
+.bg-greenlight { 
+  background: #e7e2d8
+}
+
+.bg-discount-gradient {
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+}
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.get-started:hover {
+  background: var(--sage-gradient);
+  box-shadow: var(--card-shadow);
+}
+
+.feature-card:hover {
+  /* background: var(--sage-gradient); */
+  box-shadow: var(--card-shadow);
+  
+}
+
+.feedback-container .feedback-card:last-child {
+  margin-right: 0px;
+}
+
+.feedback-card {
+  background: transparent;
+} 
+
+.feedback-card {
+  position: relative;
+}
+
+.feedback-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Adjust the size to make the region smaller */
+  height: 100%; /* Adjust the size to make the region smaller */
+  background: linear-gradient(90deg, #f9eeac 100%, #ffffff 100%);
+  filter: blur(100px);
+  z-index: -1; /* Place the pseudo-element behind the content */
+  opacity: 0; /* Initially hide the gradient */
+  transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+
+.feedback-card:hover::before {
+  opacity: 1; /* Show the gradient on hover */
+}
+
+
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
+.green__gradient {
+  background: linear-gradient(90deg, #93d88f 0%, #499e3e 100%);
+  filter: blur(900px);
+}
+.gold__gradient {
+  background: linear-gradient(90deg, #e8d5ab 0%, #e2a310 100%);
+  filter: blur(900px);
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
