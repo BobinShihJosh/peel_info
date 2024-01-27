@@ -7,7 +7,7 @@ const PeelerTestimonials = () => (
   <section id="Users" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col   relative  z-[1]">
-      <h2 className={` ${styles.heading2} dark-text`}>
+      <h2 className={` ${styles.heading2} dark-text bph:text-[28px]  leading-[42px]`}>
         What our Peelers are saying about Peel
       </h2>
       <div className="w-full md:mt-0 mt-6 ">

@@ -29,6 +29,7 @@
 .bg-primaryB {
   /* background: black;  */
   /* background: #E7E8D1; */
+  /* background: rgb(241, 239, 230); */
   background: rgb(241, 239, 230);
   /* background: linear-gradient(
     157.81deg,
@@ -51,6 +52,7 @@
 
 .light-text {
   color: rgb(241, 239, 230);
+  /* color: rgb(241, 239, 230); */
 }
 
 .text-gradient {

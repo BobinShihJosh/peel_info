@@ -28,7 +28,7 @@ const Faq = () => {
     return (
         <div className="max-w-4xl mx-auto mt-10 mb-20 ">
             
-            <h2 className={` ${styles.heading2} dark-text mb-10`}>
+            <h2 className={` ${styles.heading2} dark-text bph:text-[28px]  leading-[42px] mb-10`}>
                 Frequently Asked Questions
             </h2>
             <div className="max-w-4xl mx-auto mb-20 ">

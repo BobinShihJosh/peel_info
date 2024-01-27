@@ -10,7 +10,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className="w-full flex mt-7 justify-between items-center navbar">
+    <nav className="w-full flex mt-7 justify-between items-center  navbar">
       <img src={peel_logo} alt="hoobank" className='w-[124px] h-[49px]' />
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index) => (
@@ -41,7 +41,7 @@ const Navbar = () => {
           onClick={() => setToggle((prev) => !prev)} >
         </img>
 
-        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-sage-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`} >
+        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-greenlight absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`} >
 
           <ul className='list-none flex flex-col justify-end items-center flex-1'>
             {navLinks.map((nav, index) => (

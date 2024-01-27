@@ -22,7 +22,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
-      <h2 className={ `${styles.heading2} dark-text `} >
+      <h2 className={ `${styles.heading2} dark-text  bph:text-[28px]  leading-[42px]`} >
         Access to authentic conversations <br className="sm:block hidden" /> 
         has never been easier.
         

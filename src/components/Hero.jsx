@@ -6,8 +6,8 @@ import Button
   from './Button';
 const Hero = () => (
   <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-    <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0   sm:px-16 px-6`}>
-      <div className='flex flex-row items-center py-[6x] px-4 green-bk bg-gold-gradient rounded-[10px] mb-2'>
+    <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
+      <div className='flex flex-row items-center py-[6x] px-4 green-bk   rounded-[10px] mb-2'>
         <img src={discount} alt="discount" className='w-[32px] h-[32px]' />
         <p className={`${styles.paragraph} dark-text ml-2`}>
           <span className='dark-text'>Sign up now</span> For {" "}
@@ -15,8 +15,8 @@ const Hero = () => (
         </p>
       </div>
 
-      <div className='flex flex-row justify-between items-center w-full'>
-        <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] ph:text-[45px] bph:text-[52px] text-[52px]  dark-text ss:leading-[100px] leading-[75px]'>
+      <div className='flex flex-row justify-between items-center mt-5 w-full'>
+        <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] ph:text-[45px] bph:text-[45px] text-[52px]  dark-text ss:leading-[90px] leading-[55px]'>
           Genuine <br className='sm:block hidden' /> {" "}
           <span
             className='text-gradient'>Conversations</span> {" "}
@@ -26,8 +26,8 @@ const Hero = () => (
         </div> */}
 
       </div>
-      <h1 className='font-poppins font-semibold ss:text-[62px] ph:text-[45px] bph:text-[50px] text-[52px] dark-text ss:leading-[100px] leading-[75px] w-full'> At your convenience</h1>
-      <p className={`${styles.paragraph} max-w-[570px] mt-5 dark-text`}>
+      <h1 className='font-poppins font-semibold ss:text-[62px] ph:text-[45px] bph:text-[43px] text-[52px] dark-text ss:leading-[90px] leading-[53px] w-full'> At your convenience</h1>
+      <p className={`${styles.paragraph} max-w-[620px] mt-10 mb-3 dark-text`}>
         Peel is a platform that offers on-demand personalized chatting services. Users can handpick verified individuals for 1-on-1 conversations tailored to their preferred topics. We makes authentic conversations with real people more accessible than ever.</p>
       <Button text="Try the Beta" styles={`mt-10`} href='#product' />
     </div>

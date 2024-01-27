@@ -13,7 +13,7 @@ const PeelerProduct = () => (
     </div>
 
     <div className={` ${layout.sectionInfo}  `}>
-      <h2 className={` ${styles.heading2} dark-text xl:ml-[50px] `}>
+      <h2 className={` ${styles.heading2} dark-text  bph:text-[28px]  leading-[42px] xl:ml-[50px] `}>
       Sign up early for increased visibility among users!
       </h2>
       <p className={`${styles.paragraph} dark-text xl:ml-[50px] max-w-[570px] mt-5`}>

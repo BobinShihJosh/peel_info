@@ -7,7 +7,7 @@ const Testimonials = () => (
     
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
-      <h2 className={` ${styles.heading2} dark-text`}>
+      <h2 className={` ${styles.heading2} dark-text  bph:text-[28px]  leading-[42px] `}>
         What our users are saying about us
       </h2>
       <div className="w-full md:mt-0 mt-6 ">

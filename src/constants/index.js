@@ -110,7 +110,7 @@ export const PeelerStats = [
 export const stats = [
   {
     id: "stats-1",
-    title: "Active users(Beta)",
+    title: "Active users (Beta)",
     value: "100+",
   },
   {
