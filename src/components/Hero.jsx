@@ -32,7 +32,7 @@ const Hero = () => (
       <Button text="Try the Beta" styles={`mt-10`} href='#product' />
     </div>
 
-    <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative relative md:mr-20 lg:mr-40 xl:mr-20 w-full ml-auto mr-auto max-w-[330px]`}>
+    <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative relative md:mr-20 lg:mr-40 xl:mr-20 w-full ml-auto mr-auto max-w-[340px]`}>
       {/* <img src={convo} alt="Billing"
         className='w-[100%] h-[100%] relative z-[5]' /> */}
 
@@ -41,7 +41,7 @@ const Hero = () => (
 
 
       <video
-        src={peel_demo} autoPlay loop muted alt="Billing" className=" "
+        src={peel_demo} autoPlay loop muted playsinline alt="Billing" className=" "
       />
       {/* <div className='absolute z-[0] w-[35%] h-[35%] top-0 white__gradient' /> */}
       {/* <div className='absolute z-[1] w-[60%] h-[60%] rounded-full bottom-40 gold__gradient' /> */}
