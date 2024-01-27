@@ -32,6 +32,8 @@ import expologo from "./expologo.png"
 import convo from "./convo.svg"
 import collab from "./collab.svg"
 import audible from "./audible.svg"
+import peel_demo from "./peel_demo.mp4"
+import phoneB from "./phoneB.png"
 
 export {
   airbnb,
@@ -68,4 +70,6 @@ export {
   convo,
   collab,
   audible,
+  peel_demo,
+  phoneB,
 };
