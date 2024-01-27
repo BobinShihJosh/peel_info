@@ -33,7 +33,7 @@ const CTA = () => {
 
       <div>
         <form ref={form} onSubmit={sendEmail}>
-          <label className={`${styles.paragraph} text-white max-w-[470px]  mt-10 mb-10 mr-4`}>Email</label>
+          <label className={`${styles.paragraph} text-white max-w-[470px]  mt-10 mr-4`}>Email </label>
           <input
             type="email"
             name="user_email"
