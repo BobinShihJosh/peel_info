@@ -22,7 +22,7 @@ const CTA = () => {
 
     <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
       <div className="flex-1 flex flex-col mb-10">
-        <h2 className={` ${styles.heading2} text-white bph:text-[30px]  leading-[42px]`}>🌟 Be in the Know: Sign Up!
+        <h2 className={` ${styles.heading2} text-white bph:text-[30px] leading-[39px]`}>🌟 Be in the Know: Sign Up!
 </h2>
         <p className={`${styles.paragraph} text-white max-w-[470px] mt-5`}>
         Be part of something big! Subscribe for sneak peeks, exclusive offers, and our app's grand launch. Enter your email below for instant access to the future of Peel.
@@ -44,7 +44,7 @@ const CTA = () => {
 
             <button
               type="submit"
-              className={`py-4 px-6  font-poppins font-medium text-[18px] light-text green-cl rounded-[10px] ml-auto mr-auto mb-2 mt-10 outline-none   xs:mt-10 `}
+              className={`py-4 px-6  font-poppins font-medium text-[18px] light-text green-cl rounded-[10px] ml-10  ph:ml-0 mb-2 mt-10 outline-none   xs:mt-10 `}
             > 
               Subscribe!
             </button> 

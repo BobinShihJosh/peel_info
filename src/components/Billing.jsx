@@ -13,8 +13,8 @@ const Billing = () => (
     </div>
 
     <div className={` ${layout.sectionInfo}  `}>
-      <h2 className={` ${styles.heading2} dark-text xl:ml-[50px] bph:text-[28px]  leading-[42px] `}>
-        First 200 users get <span className="text-gradient" style={{ fontSize: '44px' }}>70%</span> <br className="sm:block hidden" /> off
+      <h2 className={` ${styles.heading2} dark-text xl:ml-[50px] bph:text-[28px]  leading-[39px] `}>
+        First 200 users get <span className="text-gradient   bph:text-[38px]  xl:text-[65px] lg:text-[65px] md:text-[65px] sm::text-[65px] xs:text-[65px] "  >70%</span> <br className="sm:block hidden" /> off
         on their first Peeler!
       </h2>
       <p className={`${styles.paragraph} dark-text xl:ml-[50px] max-w-[570px] mt-5`}>
