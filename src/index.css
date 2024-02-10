@@ -30,7 +30,7 @@
   /* background: black;  */
   /* background: #E7E8D1; */
   /* background: rgb(241, 239, 230); */
-  background: rgb(241, 239, 230);
+  background: #ffffff;
   /* background: linear-gradient(
     157.81deg,
     #CBD18F 90.29%,  
@@ -43,11 +43,19 @@
 }
 
 .dark-text {
-  color: black;
+  color: rgb(0, 0, 0);
+}
+
+.disc-text {
+  color: #f19655;
 }
 
 .gray-text {
   color: rgb(49, 49, 49);
+}
+
+.blue-text {
+  color: rgb(0, 149, 255)
 }
 
 .light-text {
@@ -58,12 +66,12 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #b5dfc2 -43.27%,   /* Lighter green shade */
-    #8aba99 -21.24%,   /* Lighter green shade */
-    #7aaf8a 12.19%,    /* Lighter green shade */
-    #75ae86 29.82%,    /* Lighter green shade */
-    #589a6c 51.94%,    /* Lighter green shade */
-    #4c9863 90.29%  
+    #ff6a00 -43.27%,   /* Lighter green shade */
+    #ff6a00 -21.24%,   /* Lighter green shade */
+    #ff6a00 12.19%,    /* Lighter green shade */
+    #ff6a00 29.82%,    /* Lighter green shade */
+    #ff6a00 51.94%,    /* Lighter green shade */
+    #ff6a00 90.29%  
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -98,7 +106,7 @@ sage
 .text-gradient_gold {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #f2e9d5 -43.27%,   /* Lighter green shade */
+    #d5e6f2 -43.27%,   /* Lighter green shade */
     #ead5a4 -21.24%,   /* Lighter green shade */
     #e0c27c 12.19%,    /* Lighter green shade */
     #dcb04b 29.82%,    /* Lighter green shade */
@@ -158,15 +166,15 @@ sage
 }
 
 .green-bk {
-  background: rgb(185, 222, 190); /* rgb(140, 182, 165) */
+  background: #fff0e4; /* rgb(140, 182, 165) */
 }
 
 .green-cl {
-  background: #4c9863; /* 4c9878 */
+  background: #ff6a00; /* 4c9878 */
 }
 
 .green-fill {
-  fill: #4c9863; /* 4c9878 */
+  fill: #ff6a00; /* 4c9878 */
 }
 
 .bg-black-gradient {
@@ -210,10 +218,10 @@ sage
 }
  
 .bg-gold { 
-  background: #e2a310
+  background: #ff6a00
 }
 .bg-goldlight { 
-  background: #e3ddce
+  background: #d3eafb
 }
 
 .bg-greenlight { 

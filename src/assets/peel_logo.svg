@@ -6,16 +6,16 @@
 <g transform="matrix(1.0081 0 0 -1.0081 101.4701 665.2996)" id="path30">
 <linearGradient id="SVGID_25" gradientUnits="userSpaceOnUse" gradientTransform="matrix(93.8518 113.5211 113.5211 -93.8518 561.2549 824.6299)" x1="0" y1="0" x2="1" y2="0">
 <stop offset="0%" style="stop-color:rgb(247,247,248);stop-opacity: 1"/>
-<stop offset="96.219534%" style="stop-color:rgb(241,158,64);stop-opacity: 1"/>
-<stop offset="100%" style="stop-color:rgb(241,158,64);stop-opacity: 1"/>
+<stop offset="96.219534%" style="stop-color:#ff6a00;stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:#ff6a00;stop-opacity: 1"/>
 </linearGradient>
 <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: url(#SVGID_25); fill-rule: nonzero; opacity: 1;" transform=" translate(-614.5125, -871.3139)" d="m 544.453 880.667 c -7.549 -16.055 18.475 -57.17 18.793 -57.672 v 0 c 0.144 0.124 3.751 2.371 68.918 38.249 v 0 c 13.036 7.182 26.431 13.781 38.568 22.394 v 0 c 4.169 2.956 9.169 5.709 13.598 12.827 v 0 c 2.547 4.09 1.896 8.163 -0.658 12.477 v 0 c -3.297 5.579 -9.624 3.842 -15.253 5.589 v 0 c -9.428 2.925 -14.961 2.07 -24.358 5.108 v 0 c 0 0 -85.789 -9.582 -99.608 -38.972 m 18.796 -57.676 c 0 0 -0.001 0.001 -0.003 0.004 v 0 c -0.014 -0.011 0.003 -0.004 0.003 -0.004" stroke-linecap="round"/>
 </g>
 <g transform="matrix(1.0081 0 0 -1.0081 115.4605 515.7024)" id="path52">
 <linearGradient id="SVGID_26" gradientUnits="userSpaceOnUse" gradientTransform="matrix(121.9921 38.9369 38.9369 -121.9921 568.0464 999.4727)" x1="0" y1="0" x2="1" y2="0">
 <stop offset="0%" style="stop-color:rgb(247,247,248);stop-opacity: 1"/>
-<stop offset="96.219534%" style="stop-color:rgb(241,158,64);stop-opacity: 1"/>
-<stop offset="100%" style="stop-color:rgb(241,158,64);stop-opacity: 1"/>
+<stop offset="96.219534%" style="stop-color:#ff6a00;stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:#ff6a00;stop-opacity: 1"/>
 </linearGradient>
 <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: url(#SVGID_26); fill-rule: nonzero; opacity: 1;" transform=" translate(-628.3903, -1019.7081)" d="m 553.486 1066.791 l -2.149 -14.969 l 33.274 -62.34 c 11.393 1.214 5.868 1.571 15.832 0.804 v 0 c 1.022 -0.18 3.776 -0.015 6.34 0.15 v 0 c 1.972 0.126 3.833 0.252 4.704 0.223 v 0 c 27.793 -0.942 72.449 -24.276 93.692 -21.441 v 0 c 2.472 37.668 -12.731 51.296 -30.559 69.356 v 0 c -10.964 11.106 -85.247 31.86 -111.769 31.863 v 0 c -6.088 0 -9.654 -1.092 -9.365 -3.646" stroke-linecap="round"/>
 </g>
